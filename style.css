@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+   padding-left: 20px;
+    color: white;
+
+}
+
+.filters {
+   padding-top: 25px;
+    text-align: center;
+    
+}
+
+.filters select,
+.filters input[type="text"] {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    font-weight: bold;
+}
